@@ -17,8 +17,7 @@ export default function Home() {
     return () => clearInterval(timer);
   }, []);
 
-  // Combined packages for search
-  const allPackages = [...summerDestinations, ...exploreDestinations];
+  // ...existing code...
 
   const filteredSummer = summerDestinations.filter(p =>
     p.name.toLowerCase().includes(searchTerm.toLowerCase()) ||

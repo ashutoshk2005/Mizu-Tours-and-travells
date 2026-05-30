@@ -32,9 +32,15 @@ export default function Navbar() {
               </li>
 
               <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                  India
-                </a>
+                  <button
+                    className="nav-link dropdown-toggle btn btn-link p-0"
+                    type="button"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    style={{ textDecoration: 'none' }}
+                  >
+                    India
+                  </button>
                 <div className="dropdown-menu" style={{columns: '2', columnGap: '0.5rem', minWidth: '360px'}}>
                   {indianStates.map(state => (
                     <button
