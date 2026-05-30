@@ -32,23 +32,22 @@ export default function Navbar() {
               </li>
 
               <li className="nav-item dropdown">
-                  <button
-                    className="nav-link dropdown-toggle btn btn-link p-0"
-                    type="button"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    style={{ textDecoration: 'none' }}
-                  >
-                    India
-                  </button>
-                <div className="dropdown-menu" style={{columns: '2', columnGap: '0.5rem', minWidth: '360px'}}>
+                <button
+                  className="nav-link dropdown-toggle btn btn-link p-0"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  style={{ textDecoration: 'none' }}
+                >
+                  India
+                </button>
+                <div className="dropdown-menu" style={{ columns: '2', columnGap: '0.5rem', minWidth: '360px' }}>
                   {indianStates.map(state => (
                     <button
                       key={state.id}
                       className="dropdown-item"
                       onClick={() => handleStateClick(state)}
                     >
-                      <i className="bi bi-geo-alt-fill me-2" style={{color: 'var(--mizu-orange)'}}></i>
+                      <i className="bi bi-geo-alt-fill me-2" style={{ color: 'var(--mizu-orange)' }}></i>
                       {state.name}
                     </button>
                   ))}
@@ -76,7 +75,7 @@ export default function Navbar() {
 
       {/* State Modal */}
       {stateModal && (
-        <div className="modal fade show d-block" style={{background: 'rgba(0,0,0,0.5)'}}>
+        <div className="modal fade show d-block" style={{ background: 'rgba(0,0,0,0.5)' }}>
           <div className="modal-dialog modal-dialog-centered">
             <div className="modal-content">
               <div className="modal-header">
@@ -88,9 +87,9 @@ export default function Navbar() {
               </div>
               <div className="modal-body p-4">
                 <div className="mb-3">
-                  <img src={stateModal.image} alt={stateModal.name} className="w-100 rounded-3" style={{height: '180px', objectFit: 'cover'}} />
+                  <img src={stateModal.image} alt={stateModal.name} className="w-100 rounded-3" style={{ height: '180px', objectFit: 'cover' }} />
                 </div>
-                <p className="fw-600 mb-3" style={{color: 'var(--text-muted)'}}>Top destinations in {stateModal.name}:</p>
+                <p className="fw-600 mb-3" style={{ color: 'var(--text-muted)' }}>Top destinations in {stateModal.name}:</p>
                 <div>
                   {stateModal.destinations.map((dest, i) => (
                     <button
