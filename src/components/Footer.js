@@ -38,12 +38,12 @@ export default function Footer() {
           {/* Services */}
           <div className="col-lg-3 col-md-6">
             <h6 className="footer-title">Our Services</h6>
-            <a href="#!" className="footer-link">Honeymoon Packages</a>
-            <a href="#!" className="footer-link">India Tour Packages</a>
-            <a href="#!" className="footer-link">Family Tours</a>
-            <a href="#!" className="footer-link">Adventure Trips</a>
-            <a href="#!" className="footer-link">Hill Station Tours</a>
-            <a href="#!" className="footer-link">International Tours</a>
+            <button className="footer-link btn btn-link p-0" type="button" style={{textAlign: 'left'}}>Honeymoon Packages</button>
+            <button className="footer-link btn btn-link p-0" type="button" style={{textAlign: 'left'}}>India Tour Packages</button>
+            <button className="footer-link btn btn-link p-0" type="button" style={{textAlign: 'left'}}>Family Tours</button>
+            <button className="footer-link btn btn-link p-0" type="button" style={{textAlign: 'left'}}>Adventure Trips</button>
+            <button className="footer-link btn btn-link p-0" type="button" style={{textAlign: 'left'}}>Hill Station Tours</button>
+            <button className="footer-link btn btn-link p-0" type="button" style={{textAlign: 'left'}}>International Tours</button>
           </div>
 
           {/* Contact */}
