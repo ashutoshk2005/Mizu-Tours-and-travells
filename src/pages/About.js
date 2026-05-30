@@ -25,7 +25,7 @@ export default function About() {
             <div className="col-lg-6">
               <div className="row g-3">
                 {[
-                  { label: 'Happy Travelers', val: '50,000+' },
+                  { label: 'Happy Travelers', val: '1,000+' },
                   { label: 'Destinations', val: '200+' },
                   { label: 'Years Experience', val: '15+' },
                   { label: 'Expert Guides', val: '80+' },
