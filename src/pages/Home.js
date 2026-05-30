@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from 'react';
 import { heroSlides, summerDestinations, exploreDestinations } from '../data/packages';
 import DestCard from '../components/DestCard';
@@ -8,6 +9,7 @@ export default function Home() {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedPkg, setSelectedPkg] = useState(null);
   const [activeCategory, setActiveCategory] = useState('All');
+  // Removed unused allPackages variable if it existed
 
   // Auto-slide
   useEffect(() => {
