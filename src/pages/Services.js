@@ -43,12 +43,12 @@ export default function Services() {
                     </div>
                     <h5 className="fw-800 mb-2">{svc.title}</h5>
                     <p style={{color: 'var(--text-muted)', fontSize: '0.9rem', lineHeight: '1.7', marginBottom: '1.5rem'}}>{svc.description}</p>
-                    <button
+                    {/* <button
                       className="btn btn-view-details"
                       style={{background: `linear-gradient(135deg, ${svc.color}, ${svc.color}cc)`}}
                     >
                       View Details <i className="bi bi-arrow-right ms-1"></i>
-                    </button>
+                    </button> */}
                   </div>
                 </div>
               </div>

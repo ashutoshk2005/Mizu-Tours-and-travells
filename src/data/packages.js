@@ -72,7 +72,7 @@ export const summerDestinations = [
   {
     id: 6,
     name: "Rishikesh Adventure",
-    image: "https://images.unsplash.com/photo-1585136917228-b6bf0fed8fe2?w=600",
+    image: "https://images.unsplash.com/photo-1598610882061-bb806386c5fb?q=80&w=865&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     price: "₹9,999",
     duration: "2N / 3D",
     description: "White-water rafting, bungee jumping, cliff jumping, and yoga retreats in the yoga capital of the world.",
@@ -89,7 +89,7 @@ export const exploreDestinations = [
   {
     id: 7,
     name: "Ladakh Odyssey",
-    image: "https://images.unsplash.com/photo-1635011657818-ee5e71a6617a?w=600",
+    image: "https://images.unsplash.com/photo-1600242466690-c1c04f081762?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     price: "₹32,999",
     duration: "7N / 8D",
     category: "Adventure",
@@ -256,6 +256,6 @@ export const heroSlides = [
     id: 6,
     destination: "Ladakh",
     tagline: "The Land of High Passes",
-    image: "https://images.unsplash.com/photo-1635011657818-ee5e71a6617a?w=1400&q=80",
+    image: "https://images.unsplash.com/photo-1600242466690-c1c04f081762?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
 ];
