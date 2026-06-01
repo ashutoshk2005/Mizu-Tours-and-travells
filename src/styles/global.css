@@ -93,7 +93,7 @@ h1, h2, h3, .display-font {
   border: 2px solid var(--mizu-orange);
   color: var(--mizu-orange) !important;
   border-radius: 25px;
-  padding: 0.2rem 1rem !important;
+  padding: 0.3rem 1.2rem !important;
   font-weight: 700;
   transition: all 0.3s;
 }
@@ -107,7 +107,7 @@ h1, h2, h3, .display-font {
   border: none;
   color: #fff !important;
   border-radius: 25px;
-  padding: 0.3rem 0.9rem !important;
+  padding: 0.3rem 1.2rem !important;
   font-weight: 700;
   transition: all 0.3s;
 }
@@ -508,7 +508,7 @@ h1, h2, h3, .display-font {
 
 .form-label {
   font-weight: 700;
-  font-size: 0.2rem;
+  font-size: 0.5rem;
   color: var(--text-dark);
   margin-bottom: 0.4rem;
 }
